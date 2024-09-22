@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "IndexGenerator02",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "IndexGenerator02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IndexGenerator02-Debug-b39c90aa72fdcdadcb59.json",
+					"name" : "IndexGenerator02",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "S:/CR_2024CMU_ECE/SEM_202408_Y1_FALL/CR_202408_(04800-I)_ISSE/CR_202408_ISSE_ASS/ISSE_ASS04/IndexGenerator02/cmake-build-debug",
+		"source" : "S:/CR_2024CMU_ECE/SEM_202408_Y1_FALL/CR_202408_(04800-I)_ISSE/CR_202408_ISSE_ASS/ISSE_ASS04/IndexGenerator02"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
