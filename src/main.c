@@ -179,7 +179,7 @@ void sortIndex() {
 // Print the sorted index
 void printIndex() {
     for (int i = 0; i < wordCount; i++) {
-        printf("%s [%d]:", wordIndex[i].word, wordIndex[i].count);
+        printf("%s           [%d]:", wordIndex[i].word, wordIndex[i].count);
         for (int j = 0; j < wordIndex[i].count; j++) {
             printf(" %d", wordIndex[i].lines[j]);
             if (j < wordIndex[i].count - 1) {
