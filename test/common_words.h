@@ -18,7 +18,7 @@ const char *common_words[] = {
  "over", "people", "say", "see", "she", "so", "some", "take", "than", "that", "the", "their",
  "them", "then", "there", "these", "they", "think", "this", "time", "to", "two", "up", "us",
  "use", "want", "way", "we", "well", "we'll", "what", "when", "which", "who", "will", "with",
- "work", "would", "year", "you", "your", NULL
+ "work", "would", "year", "you", "your", "-", "_", "- ", " -", NULL
 };
 
 
