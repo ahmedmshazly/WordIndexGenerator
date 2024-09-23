@@ -13,7 +13,7 @@
  */
 
 
-#include "../include/common_words.h"
+#include "../test/common_words.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -30,6 +30,7 @@ typedef struct {
 WordIndex wordIndex[MAX_WORDS];
 int wordCount = 0;
 
+static const int common_words_count = 95;
 // Func declarations
 void parseInput();
 int isCommonWord(const char* word);
@@ -101,13 +102,15 @@ void parseInput() {
  */
 // Check if word is common
 int isCommonWord(const char* word) {
-    for (int i = 0; i < common_words_count; i++) {
+    for (int i = 0; common_words[i] != NULL; i++) {
         if (strcmp(word, common_words[i]) == 0) {
-            return 1;  // It's a common word
+            // printf("Common word found: %s\n", word); // Debugging
+            return 1;  // True: It is a common word
         }
     }
-    return 0;  // Not a common word
+    return 0;  // False: It is not a common word
 }
+
 
 /**
  * Adds a new word or updates an existing word's data in the index.
@@ -195,8 +198,15 @@ void printIndex() {
  * @return int Program exit status.
  */
 int main() {
+    // if (isCommonWord("you")) {
+    //     printf("The word 'you' is correctly identified as common.\n");
+    // } else {
+    //     printf("Error: 'you' is not identified as common.\n");
+    // }
+
     parseInput();
     sortIndex();
     printIndex();
     return 0;
 }
+
