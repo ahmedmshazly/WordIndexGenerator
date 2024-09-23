@@ -30,7 +30,7 @@ typedef struct {
 WordIndex wordIndex[MAX_WORDS];
 int wordCount = 0;
 
-static const int common_words_count = 95;
+// static const int common_words_count = 95;
 // Func declarations
 void parseInput();
 int isCommonWord(const char* word);
